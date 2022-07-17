@@ -55,9 +55,10 @@ body {
 
 }
 
-#inicio div {
+#inicio div img {
     flex-direction: row;
     align-items: center;
+    width: 80%;
 }
 
 
