@@ -8,26 +8,13 @@
     <title>Potfólio Kleyton</title>
 </head>
 <body>
-    <header>
-    <div class="menu">
-            <nav>
-            <ul>
-                <li>
-                    <a href="#incio">Início</a>
-                </li>
-                <li>
-                    <a href="#sobre">Sobre</a>
-                </li>
-                <li>
-                    <a href="#projetos">Projetos</a>
-                    
-                </li>
-                <li>
-                    <a href="#contato">Contato</a>
-                </li>
-            </ul> 
-            </nav>
-    </div>
+    <header class="cabecalho">
+        <nav class="menu-cabecalho" >
+            <a href="#incio" class="item-menu-cabecalho">Início</a>
+            <a href="#sobre" class="item-menu-cabecalho">Sobre</a>
+            <a href="#projetos" class="item-menu-cabecalho">Projetos</a>
+            <a href="#contato" class="item-menu-cabecalho">Contato</a>
+        </nav>
     </header>
     <main>
         <section id="inicio">
@@ -45,13 +32,26 @@
 
         <section id="projetos">
             <div>
-                <p>Projetos desenvolvidos</p>
-                <a href="https://aluracord-matrix-ruddy-ten.vercel.app/">Alura Cord Matrix</a>
-                <a href="https://landing-page-rafa-ballerini.vercel.app/">Landing Page</a>
-                <a href="https://formulario-html-css-kleytoncristovao.vercel.app/">Formulário com HTML e CSS</a>
-                <a href="https://pokedex1-kleytoncristovao.vercel.app/">Pokedex</a>
-                <a href="https://lista-de-tarefas-kleytoncristovao.vercel.app/">Lista de Tarefas com React</a>
-                <a href="https://kley-filmes-api-imdb-kleytoncristovao.vercel.app/">Api Filmes IMDB</a>
+                <h2>Projetos desenvolvidos</h2>
+                
+                <div class="button-projetos">
+                
+                    <button class="link-projetos"><a href="https://landing-page-rafa-ballerini.vercel.app/">Landing Page com HTML e CSS</a></button>
+                    
+                
+                    <button class="link-projetos"><a href="https://formulario-html-css-kleytoncristovao.vercel.app/">Formulário com HTML e CSS</a></button>
+                    <button class="link-projetos"><a href="https://barbearia-alura-kleytoncristovao.vercel.app/index.html">Barbearia Alura com HTML e CSS </a></button>
+
+                    <button class="link-projetos"><a href="https://pokedex1-kleytoncristovao.vercel.app/">Pokedex com JavaScript</a></button>
+                    <button class="link-projetos"><a href="https://pong-java-script-alura-kleytoncristovao.vercel.app/">Pong com Java Script</a></button>
+                    <button class="link-projetos"><a href="https://jogo-atravessar-java-scrip-alura-kleytoncristovao.vercel.app/">Jogo Atravessar com JavaScript</a></button>
+
+                    <button class="link-projetos"><a href="https://lista-de-tarefas-kleytoncristovao.vercel.app/">Lista de Tarefas com React</a></button>
+                    <button class="link-projetos"><a href="https://kley-filmes-api-imdb-kleytoncristovao.vercel.app/">Api Filmes IMDB com React e Vite</a></button>
+                    <button class="link-projetos"><a href="https://react-consulta-cep-kleytoncristovao.vercel.app/">Consulta CEP com React</a></button>
+                    <button class="link-projetos"><a href="https://aluracord-matrix-ruddy-ten.vercel.app/">Alura Cord Matrix</a></button>
+                </div>
+
             </div>
         </section>
         <section id="contato">
@@ -60,8 +60,8 @@
             </div>
         </section>
     </main>
-    <footer>
-        <p class="copyright">&copy; Desenvolvido com muito carinho por Kleyton Cristovão - 2022</p>
+    <footer class="copyright" >
+        <p>&copy; Desenvolvido com muito carinho por Kleyton Cristovão - 2022</p>
     </footer>
 </body>
 </html>
