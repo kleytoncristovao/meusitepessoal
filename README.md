@@ -7,7 +7,7 @@
 
 <p>Deu trabalho e percebi que ainda preciso praticar mais e novas conhecimentos para que fique ainda mais fácil montar a página, até agora sinto que já tenho algum conhecimento mas ainda a ponta do iceberg do que vou aprender e colocar em prático.</p>
 
-<p>PS: caso tenha alguma sugestão ou dica pode me passar, ficarei muito feliz em aprender e melhorar</p>
+<p>PS: caso tenha alguma sugestão ou dica pode me passar, ficarei muito feliz em aprender e melhorar.</p>
 
 ## Linguagens de Marcação usadas:
 - HTML
