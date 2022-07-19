@@ -247,8 +247,6 @@ h2 {
 
 .copyright-link, .copyright-texto{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     text-decoration: none;
     color: #f73e3e;
     transition: 0.4s;
